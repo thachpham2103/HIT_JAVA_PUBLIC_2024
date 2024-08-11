@@ -38,7 +38,7 @@ public class btvn1 {
             System.out.println(" nhap r=");
             int r= sc.nextInt();
             double S= Math.PI*Math.pow(r,2);
-            System.out.println(" dientich="+S);
+            System.out.println(" dientich="+" %.2f\n"+S);
         }
         else{
             System.out.println(" hình dạng không hợp lệ!");
