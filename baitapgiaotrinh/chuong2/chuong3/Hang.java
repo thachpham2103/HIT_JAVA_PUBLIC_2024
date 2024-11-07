@@ -1,4 +1,5 @@
-package BTVN_B5;
+package baitapgiaotrinh.chuong2.chuong3;
+
 import java.util.Scanner;
 public class Hang {
     private String maHang;

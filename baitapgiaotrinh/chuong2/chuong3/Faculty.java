@@ -1,4 +1,6 @@
-package BTVN_B6;
+package baitapgiaotrinh.chuong2.chuong3;
+
+import BTVN_B6.School;
 
 import java.util.Scanner;
 

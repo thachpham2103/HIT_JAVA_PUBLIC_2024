@@ -1,4 +1,4 @@
-package BTVN_B6;
+package baitapgiaotrinh.chuong2.chuong3;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class Main2 {
 
         for (int i = 0; i < n; i++) {
             PM[i].xuat();
+            break;
         }
 
     }

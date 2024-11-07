@@ -1,4 +1,6 @@
-package BTVN_B6;
+package baitapgiaotrinh.chuong2.chuong3;
+
+import BTVN_B6.QuanLy;
 
 import java.util.Scanner;
 
@@ -6,7 +8,7 @@ public class PhongMay {
     private String maPhong;
     private String tenPhong;
     private double dienTich;
-    private  QuanLy x;
+    private QuanLy x;
     private May y;
 
      public PhongMay(){
