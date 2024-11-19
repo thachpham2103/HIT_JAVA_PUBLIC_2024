@@ -7,14 +7,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = 5;
         Book[] a = new Book[5];
-        a[0] = new Book(123, " Tiếng Anh", " Phạm Đức Hiếu", 2023, 12, " B");
-        a[1] = new Book(124, " Toán", " Phạm Văn Quang", 2022, 11, " A");
-        a[2] = new Book(125, " Tiếng Nhật", "Lê Thị Thơm", 2021, 4, " D");
-        a[3] = new Book(126, " Tiếng Trung", " Trần Văn Huy", 2020, 7, " F");
-        a[4] = new Book(127, " Tiếng Hàn", " Ngyễn Văn Phúc", 2022, 18, " C");
+        TruyenCoTich[] b = new TruyenCoTich[1];
+        b[0] = new TruyenCoTich(124, " SQL", new TacGia(" B", 17, " NA"), 2021, " A",
+                13, " haNoi", 10);
+        a[0] = new Book(123, "JaVa", new TacGia(" A", 16, " TH"), 2000, "A", 2000);
 
         for (Book book : a) {
-            book.xuat();
+            // a[0].xuat();
+            b[0].xuat();
         }
 
         System.out.println("----------MENU----------");
@@ -57,12 +57,12 @@ public class Main {
                     }
                 }
                 for (Book book : a) {
-                    book.xuat();
+                    book.toString();
                 }
                 break;
 
             //cuốn sách lâu đời nhất .
-          /*  case 3:
+         /* case 3:
                 Book sachLauDoiNhat = a.getNamSanXuat(0);
                 for (Book sach : a) {
                     if (sach.getNamSanXuat() < sachLauDoiNhat.getNamSanXuat()) {

@@ -1,6 +1,5 @@
 package baitapgiaotrinh.chuong2.tx1;
 
-import bai2.Nguoi;
 
 import java.util.Scanner;
 

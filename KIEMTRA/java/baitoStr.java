@@ -4,6 +4,10 @@ public class baitoStr extends bai2 {
     private String hangSanXuat;
     private int boNho;
 
+    public baitoStr(){
+        super();
+    }
+
     public baitoStr(String id, String name, String price, int total, String hangSanXuat, int boNho) {
         super(id, name, price, total);
         this.hangSanXuat = hangSanXuat;

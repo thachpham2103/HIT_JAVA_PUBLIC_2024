@@ -2,18 +2,19 @@ package KIEMTRA.java;
 
 public class bai2 {
     private String id;
-    private  String name;
-    private String price ;
+    private String name;
+    private String price;
     private int total;
 
-    public bai2(){
+    public bai2() {
 
     }
-    public bai2( String id,String name,String price,int total ){
-        this.id=id;
-        this.name=name;
-        this.price=price;
-        this.total=total;
+
+    public bai2(String id, String name, String price, int total) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.total = total;
     }
 
     public String getId() {
@@ -47,11 +48,10 @@ public class bai2 {
     public void setTotal(int total) {
         this.total = total;
     }
+
     @Override
     public String toString() {
         return " Prroduct " + id + " name" + name + " price " + price + " total" + total;
     }
-
-    public abstract double getTotalPrice() ;
-
 }
+

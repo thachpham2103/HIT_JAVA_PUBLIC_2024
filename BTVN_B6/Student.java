@@ -1,5 +1,7 @@
 package BTVN_B6;
 
+import baitapgiaotrinh.chuong2.chuong3.Faculty;
+
 import java.util.Scanner;
 
 public class Student {
