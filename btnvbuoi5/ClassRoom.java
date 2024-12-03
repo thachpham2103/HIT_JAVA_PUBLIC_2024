@@ -96,7 +96,7 @@ public class ClassRoom {
     }
 
     public static void main(String[] args) {
-        ClassRoom b=new ClassRoom();
+        ClassRoom b = new ClassRoom();
         b.menu();
         ClassRoom.inPutDaTa();
     }
